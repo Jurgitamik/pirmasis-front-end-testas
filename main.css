@@ -7,29 +7,29 @@ body * {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-
 div {
     display: inline-block;
-    width: 1200px;
+    width: 700px;
     margin-top: 50px;
-    margin-left: calc( (100% - 1200px) / 2);
+    margin-left: calc( (100% - 700px) / 2);
     height: 300px;
     background-color: red;
-
 }
     h1 {
-        font-size: 30px;
+        font-size: 60px;
         text-align: center;
-        margin: 50px;
+        margin: 80px 100px 10px;
         line-height: 40px;
         color: silver;
-        
+        padding: 20px 0;
+        letter-spacing: 3px;
+        text-shadow: 10px 10px rgb(83, 62, 62);
     }
-
     p {
         font-size: 30px;
+        text-decoration: underline;
+        font-family: 'Times New Roman', Times, serif;
         text-align: center;
-        padding: 20px 50px;
         line-height: 40px;
-        color: rgb(124, 122, 122);
+        color: black);  
     }
